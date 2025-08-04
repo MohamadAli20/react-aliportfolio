@@ -1,0 +1,26 @@
+/* *{
+  border: 1px dotted red;
+} */
+:root{
+    --primary-color: #413620;
+    --secondary-color: #9C6615;
+    --tertiary-color: #CDD1DE;
+    --accent-color: #FFD791;
+}
+
+.home {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.customNav{
+    background-color: var(--primary-color); 
+}
+.customLink, .toggleColor{
+    color: var(--tertiary-color) !important;
+}
+.focusLink{
+    color: var(--accent-color) !important;
+}
+
