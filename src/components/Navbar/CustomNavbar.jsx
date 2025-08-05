@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const CustomNavbar = () => {
     return (
-    <Navbar expand="lg" className={styles.customNav}>
+    <Navbar fixed="top" expand="lg" className={styles.customNav}>
       <Container>
         <Navbar.Brand href="#home" className={styles.customLink}>Ali</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>

@@ -7,32 +7,40 @@
 
 .home{
     background-color: var(--primary-color) !important;
-    height: 100vh;
-    width: 100vw;
-    position: absolute; 
-    top: 0;
-    z-index: -1;
+    min-height: 100vh;
+}
+.homeWrapper{
+    color: var(--accent-color);
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.introWrapper{
+    display: block;   
+    width: 100%; 
+}
 .name{
-    text-align: center;
-    color: var(--accent-color);
-    font-size: 40px;
+    font-size: 2em;
+}
+@media (min-width: 1200px) { 
+    .introWrapper {
+        padding-left: 100px;
+    }
+}
+@media (min-width: 992px) { 
+    .introWrapper {
+        padding-left: 100px;
+    }
+}
+@media (max-width: 991px) { 
+    .introWrapper {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) { 
+    .introWrapper {
+        text-align: center; 
+    }
 }
 
-.buttonHire{
-    border-radius: 0 !important;
-    background-color: var(--accent-color) !important;
-    border: 2px solid var(--accent-color) !important;
-    color: var(--primary-color) !important;
-}
-.buttonDownload{
-    border-radius: 0 !important;
-    border: 2px solid var(--accent-color) !important;
-    color: var(--accent-color) !important;
-    background-color: var(--primary-color) !important;
-}
-    
